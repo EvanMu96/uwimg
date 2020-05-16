@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "defines": [],
+            "macFrameworkPath": [],
+            "includePath": ["/Users/komoriii/Github/uwimg/src/"],
+            "compilerPath": "/usr/local/bin/gcc-8"
+        }
+    ],
+    "version": 4
+}

@@ -1,6 +1,15 @@
 #include <math.h>
 #include "image.h"
 
+
+int closest_int(float pos)
+{
+    if((pos - (int)pos) >= 0.5) {
+        return (int)pos + 1;
+    }
+    return (int)pos;
+}
+
 float nn_interpolate(image im, float x, float y, int c)
 {
     // TODO Fill in
